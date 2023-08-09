@@ -1,0 +1,24 @@
+{
+  "name": "typeai-bug-repo",
+  "version": "1.0.0",
+  "description": "reproducing installation issues",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx index.ts",
+    "install-deepkit": "pwsh ./node_modules/.bin/deepkit-type-install.ps1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@deepkit/core": "^1.0.1-alpha.97",
+    "@typeai/core": "^0.5.1",
+    "typescript": "^5.1.6",
+    "@deepkit/type": "npm:@jefflaporte/deepkit-type-compiler@^1.0.1-alpha.97-jl"
+  },
+  "devDependencies": {
+    "@deepkit/type": "npm:@jefflaporte/deepkit-type-compiler@^1.0.1-alpha.97-jl",
+    "tsx": "^3.12.7"
+  }
+}
